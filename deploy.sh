@@ -23,7 +23,7 @@ fi
 # Commands on the DigitalOcean droplet
 
 # Clone nodeserver
-execute_command "git clone https://vedikaorganics:${GITHUB_PAT}@github.com/vedikaorganics/nodeserver.git"0
+execute_command "git clone https://vedikaorganics:${GITHUB_PAT}@github.com/vedikaorganics/nodeserver.git"
 
 # Build nodeserver image
 execute_command "docker build -t vedikadocker/shudhkart:0.0.3 ./nodeserver"
