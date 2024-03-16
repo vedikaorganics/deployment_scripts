@@ -1,0 +1,457 @@
+{
+    "total": 16,
+    "documents": [
+        {
+            "id": "GRN-500",
+            "otherImages": [
+                "https://res.cloudinary.com/dxzzseffz/image/upload/v1709457713/product%20images/qyr7dq7t2txgrnzjrpla.png",
+                "https://res.cloudinary.com/dxzzseffz/image/upload/v1709457954/product%20images/ayw0z178w6bneahgcenp.png"
+            ],
+            "productId": "groundnut-wood-pressed-oil",
+            "isMainVariant": false,
+            "unit": "ml",
+            "size": 500,
+            "bulletPoints": [],
+            "price": 230,
+            "title": "Groundnut Wood Pressed Oil (500_ml)",
+            "cartImage": "https://res.cloudinary.com/dxzzseffz/image/upload/v1709455331/product%20images/l5q424wqxprmnc81cs0u.png",
+            "coverImage": "https://res.cloudinary.com/dxzzseffz/image/upload/v1709475515/product%20images/howutczus2jyqf24x1vt.png",
+            "colorHex": "F2EDCB",
+            "$id": "65bfa7fc455b021155b7",
+            "$createdAt": "2024-02-04T15:06:36.284+00:00",
+            "$updatedAt": "2024-03-10T10:29:15.211+00:00",
+            "$permissions": [
+                "read(\"user:root\")",
+                "update(\"user:root\")",
+                "delete(\"user:root\")"
+            ],
+            "$databaseId": "6559aa55c8535f463b48",
+            "$collectionId": "6559aa721adfa29ca781"
+        },
+        {
+            "id": "GRN-1",
+            "otherImages": [
+                "https://res.cloudinary.com/dxzzseffz/image/upload/v1709457713/product%20images/qyr7dq7t2txgrnzjrpla.png",
+                "https://res.cloudinary.com/dxzzseffz/image/upload/v1709457954/product%20images/ayw0z178w6bneahgcenp.png"
+            ],
+            "productId": "groundnut-wood-pressed-oil",
+            "isMainVariant": true,
+            "unit": "litre",
+            "size": 1,
+            "bulletPoints": [
+                "100% Unrefined, Unadulterated, Preservative-free, Chemical-free.",
+                "Contains only one Ingredient ie. Groundnuts.",
+                "Single Wood Pressed traditionally to keep the oil\u2019s natural flavour, aroma and nutrients intact.",
+                "Made from native, handpicked Groundnuts from Shekhawati region of Rajasthan.",
+                "Freshly Extracted."
+            ],
+            "price": 450,
+            "title": "Groundnut Wood Pressed Oil (1_litre)",
+            "cartImage": "https://res.cloudinary.com/dxzzseffz/image/upload/v1709455331/product%20images/l5q424wqxprmnc81cs0u.png",
+            "coverImage": "https://res.cloudinary.com/dxzzseffz/image/upload/v1709475515/product%20images/howutczus2jyqf24x1vt.png",
+            "colorHex": "F2EDCB",
+            "$id": "65bfa80157e6145b5e3d",
+            "$createdAt": "2024-02-04T15:06:41.360+00:00",
+            "$updatedAt": "2024-03-10T10:29:11.390+00:00",
+            "$permissions": [
+                "read(\"user:root\")",
+                "update(\"user:root\")",
+                "delete(\"user:root\")"
+            ],
+            "$databaseId": "6559aa55c8535f463b48",
+            "$collectionId": "6559aa721adfa29ca781"
+        },
+        {
+            "id": "GRN-5",
+            "otherImages": [
+                "https://res.cloudinary.com/dxzzseffz/image/upload/v1709457713/product%20images/qyr7dq7t2txgrnzjrpla.png",
+                "https://res.cloudinary.com/dxzzseffz/image/upload/v1709457954/product%20images/ayw0z178w6bneahgcenp.png"
+            ],
+            "productId": "groundnut-wood-pressed-oil",
+            "isMainVariant": false,
+            "unit": "litres",
+            "size": 5,
+            "bulletPoints": [],
+            "price": 1980,
+            "title": "Groundnut Wood Pressed Oil (5_litres)",
+            "cartImage": "https://res.cloudinary.com/dxzzseffz/image/upload/v1709455331/product%20images/l5q424wqxprmnc81cs0u.png",
+            "coverImage": "https://res.cloudinary.com/dxzzseffz/image/upload/v1709475515/product%20images/howutczus2jyqf24x1vt.png",
+            "colorHex": "F2EDCB",
+            "$id": "65bfa806deb6d210984f",
+            "$createdAt": "2024-02-04T15:06:46.912+00:00",
+            "$updatedAt": "2024-03-10T10:29:06.306+00:00",
+            "$permissions": [
+                "read(\"user:root\")",
+                "update(\"user:root\")",
+                "delete(\"user:root\")"
+            ],
+            "$databaseId": "6559aa55c8535f463b48",
+            "$collectionId": "6559aa721adfa29ca781"
+        },
+        {
+            "id": "CCN-500",
+            "otherImages": [
+                "https://res.cloudinary.com/dxzzseffz/image/upload/v1709458086/product%20images/faibeveinmxrk3darnrz.png",
+                "https://res.cloudinary.com/dxzzseffz/image/upload/v1709458086/product%20images/j2oteykkscxs3rpqnbtt.png"
+            ],
+            "productId": "coconut-wood-pressed-oil",
+            "isMainVariant": false,
+            "unit": "ml",
+            "size": 500,
+            "bulletPoints": [],
+            "price": 320,
+            "title": "Coconut Wood Pressed Oil (500_ml)",
+            "cartImage": "https://res.cloudinary.com/dxzzseffz/image/upload/v1709458087/product%20images/p3tmww64svmwzrnqqsh6.png",
+            "coverImage": "https://res.cloudinary.com/dxzzseffz/image/upload/v1709458086/product%20images/ehitkfsk9nea7nfbfisk.png",
+            "colorHex": "E8F5FB",
+            "$id": "65bfa80b68d6a340730a",
+            "$createdAt": "2024-02-04T15:06:51.429+00:00",
+            "$updatedAt": "2024-03-10T10:28:48.167+00:00",
+            "$permissions": [
+                "read(\"user:root\")",
+                "update(\"user:root\")",
+                "delete(\"user:root\")"
+            ],
+            "$databaseId": "6559aa55c8535f463b48",
+            "$collectionId": "6559aa721adfa29ca781"
+        },
+        {
+            "id": "CCN-1",
+            "otherImages": [
+                "https://res.cloudinary.com/dxzzseffz/image/upload/v1709458086/product%20images/faibeveinmxrk3darnrz.png",
+                "https://res.cloudinary.com/dxzzseffz/image/upload/v1709458086/product%20images/j2oteykkscxs3rpqnbtt.png"
+            ],
+            "productId": "coconut-wood-pressed-oil",
+            "isMainVariant": true,
+            "unit": "litre",
+            "size": 1,
+            "bulletPoints": [
+                "100% Unrefined, Unadulterated, Preservative-free, Chemical-free.\n",
+                "Contains only one Ingredient ie. 100% Wood Pressed Coconut Oil.",
+                "Single Wood Pressed traditionally to keep the oil\u2019s natural flavour, aroma and nutrients intact.",
+                "Made from Handpicked Coconuts from Tiptur.",
+                "Freshly Extracted."
+            ],
+            "price": 570,
+            "title": "Coconut Wood Pressed Oil (1_litre)",
+            "cartImage": "https://res.cloudinary.com/dxzzseffz/image/upload/v1709458087/product%20images/p3tmww64svmwzrnqqsh6.png",
+            "coverImage": "https://res.cloudinary.com/dxzzseffz/image/upload/v1709458086/product%20images/ehitkfsk9nea7nfbfisk.png",
+            "colorHex": "E8F5FB",
+            "$id": "65bfa8112fbfe628b026",
+            "$createdAt": "2024-02-04T15:06:57.195+00:00",
+            "$updatedAt": "2024-03-10T10:28:43.952+00:00",
+            "$permissions": [
+                "read(\"user:root\")",
+                "update(\"user:root\")",
+                "delete(\"user:root\")"
+            ],
+            "$databaseId": "6559aa55c8535f463b48",
+            "$collectionId": "6559aa721adfa29ca781"
+        },
+        {
+            "id": "MUS-500",
+            "otherImages": [
+                "https://res.cloudinary.com/dxzzseffz/image/upload/v1709458726/product%20images/coykegxpmlvu5j5od8vd.png",
+                "https://res.cloudinary.com/dxzzseffz/image/upload/v1709458725/product%20images/bmzxlgk3dk4opxrksrt2.png"
+            ],
+            "productId": "mustard-wood-pressed-oil",
+            "isMainVariant": false,
+            "unit": "ml",
+            "size": 500,
+            "bulletPoints": [],
+            "price": 190,
+            "title": "Mustard Wood Pressed Oil (500_ml)",
+            "cartImage": "https://res.cloudinary.com/dxzzseffz/image/upload/v1709458726/product%20images/vkebxixkuqjjt28muntr.png",
+            "coverImage": "https://res.cloudinary.com/dxzzseffz/image/upload/v1709458726/product%20images/bq1k6u8rf77jxlc3oimz.png",
+            "colorHex": "F2E9D5",
+            "$id": "65bfa8165dd78983f376",
+            "$createdAt": "2024-02-04T15:07:02.384+00:00",
+            "$updatedAt": "2024-03-10T10:28:01.455+00:00",
+            "$permissions": [
+                "read(\"user:root\")",
+                "update(\"user:root\")",
+                "delete(\"user:root\")"
+            ],
+            "$databaseId": "6559aa55c8535f463b48",
+            "$collectionId": "6559aa721adfa29ca781"
+        },
+        {
+            "id": "MUS-1",
+            "otherImages": [
+                "https://res.cloudinary.com/dxzzseffz/image/upload/v1710009088/product%20images/tpcwohvlkycsyiygd8za.png",
+                "https://res.cloudinary.com/dxzzseffz/image/upload/v1709458725/product%20images/bmzxlgk3dk4opxrksrt2.png"
+            ],
+            "productId": "mustard-wood-pressed-oil",
+            "isMainVariant": true,
+            "unit": "litre",
+            "size": 1,
+            "bulletPoints": [
+                "100% Unrefined, Unadulterated, Preservative-free, Chemical-free.",
+                "Contains only one Ingredient ie. Black Mustard Seeds.",
+                "Single Wood Pressed traditionally to keep the oil\u2019s natural flavour, aroma and nutrients intact.",
+                "Made from native, handpicked seeds from Shekhawati region of Rajasthan.",
+                "Freshly Extracted."
+            ],
+            "price": 380,
+            "title": "Mustard Wood Pressed Oil (1_litre)",
+            "cartImage": "https://res.cloudinary.com/dxzzseffz/image/upload/v1710009916/product%20images/mjvcco72xjejwo7qzmur.png",
+            "coverImage": "https://res.cloudinary.com/dxzzseffz/image/upload/v1710008983/product%20images/oy9hphg5ef33vn9wabnq.png",
+            "colorHex": "F2E9D5",
+            "$id": "65bfa81ba154febc9d36",
+            "$createdAt": "2024-02-04T15:07:07.661+00:00",
+            "$updatedAt": "2024-03-10T10:27:57.669+00:00",
+            "$permissions": [
+                "read(\"user:root\")",
+                "update(\"user:root\")",
+                "delete(\"user:root\")"
+            ],
+            "$databaseId": "6559aa55c8535f463b48",
+            "$collectionId": "6559aa721adfa29ca781"
+        },
+        {
+            "id": "MUS-5",
+            "otherImages": [
+                "https://res.cloudinary.com/dxzzseffz/image/upload/v1709458726/product%20images/coykegxpmlvu5j5od8vd.png",
+                "https://res.cloudinary.com/dxzzseffz/image/upload/v1709458725/product%20images/bmzxlgk3dk4opxrksrt2.png"
+            ],
+            "productId": "mustard-wood-pressed-oil",
+            "isMainVariant": false,
+            "unit": "litres",
+            "size": 5,
+            "bulletPoints": [],
+            "price": 1680,
+            "title": "Mustard Wood Pressed Oil (5_litres)",
+            "cartImage": "https://res.cloudinary.com/dxzzseffz/image/upload/v1709458726/product%20images/vkebxixkuqjjt28muntr.png",
+            "coverImage": "https://res.cloudinary.com/dxzzseffz/image/upload/v1709458726/product%20images/bq1k6u8rf77jxlc3oimz.png",
+            "colorHex": "F2E9D5",
+            "$id": "65bfa82040e61f1186ab",
+            "$createdAt": "2024-02-04T15:07:12.266+00:00",
+            "$updatedAt": "2024-03-10T10:27:53.460+00:00",
+            "$permissions": [
+                "read(\"user:root\")",
+                "update(\"user:root\")",
+                "delete(\"user:root\")"
+            ],
+            "$databaseId": "6559aa55c8535f463b48",
+            "$collectionId": "6559aa721adfa29ca781"
+        },
+        {
+            "id": "YMS-500",
+            "otherImages": [],
+            "productId": "yellow-mustard-wood-pressed-oil",
+            "isMainVariant": false,
+            "unit": "ml",
+            "size": 500,
+            "bulletPoints": [],
+            "price": 210,
+            "title": "Yellow Mustard Wood Pressed Oil (500_ml)",
+            "cartImage": "",
+            "coverImage": "https://res.cloudinary.com/dxzzseffz/image/upload/v1707243008/product%20images/bcdxyyxicxdcewswko6b.png",
+            "colorHex": "F2E9D5",
+            "$id": "65bfa82585668f43cf4b",
+            "$createdAt": "2024-02-04T15:07:17.546+00:00",
+            "$updatedAt": "2024-03-10T10:25:26.254+00:00",
+            "$permissions": [
+                "read(\"user:root\")",
+                "update(\"user:root\")",
+                "delete(\"user:root\")"
+            ],
+            "$databaseId": "6559aa55c8535f463b48",
+            "$collectionId": "6559aa721adfa29ca781"
+        },
+        {
+            "id": "YMS-1",
+            "otherImages": [
+                "https://res.cloudinary.com/dxzzseffz/image/upload/v1710009372/product%20images/luc09y8hgx9j3zc8vh7h.png",
+                "https://res.cloudinary.com/dxzzseffz/image/upload/v1710009723/product%20images/sqpggzggbaplxgpp0bsa.png"
+            ],
+            "productId": "yellow-mustard-wood-pressed-oil",
+            "isMainVariant": true,
+            "unit": "litre",
+            "size": 1,
+            "bulletPoints": [
+                "100% Unrefined, Unadulterated, Preservative-free, Chemical-free.",
+                "Contains only one Ingredient ie. Yellow Mustard Seeds.",
+                "Single Wood Pressed traditionally to keep the oil\u2019s natural flavour, aroma and nutrients intact.",
+                "Made from native, handpicked seeds from Shekhawati region of Rajasthan.",
+                "Freshly Extracted."
+            ],
+            "price": 390,
+            "title": "Yellow Mustard Wood Pressed Oil (1_litre)",
+            "cartImage": "https://res.cloudinary.com/dxzzseffz/image/upload/v1707243006/product%20images/rejw95lhk2xwkwlqqmfn.png",
+            "coverImage": "https://res.cloudinary.com/dxzzseffz/image/upload/v1710009272/product%20images/zcwe6e2vzjdax8hvg78x.png",
+            "colorHex": "F2E9D5",
+            "$id": "65bfa82abbd1d4956dc8",
+            "$createdAt": "2024-02-04T15:07:22.769+00:00",
+            "$updatedAt": "2024-03-10T10:25:21.144+00:00",
+            "$permissions": [
+                "read(\"user:root\")",
+                "update(\"user:root\")",
+                "delete(\"user:root\")"
+            ],
+            "$databaseId": "6559aa55c8535f463b48",
+            "$collectionId": "6559aa721adfa29ca781"
+        },
+        {
+            "id": "SSM-500",
+            "otherImages": [],
+            "productId": "sesame-wood-press-oil",
+            "isMainVariant": false,
+            "unit": "ml",
+            "size": 500,
+            "bulletPoints": [],
+            "price": 280,
+            "title": "Sesame Wood Press Oil (500_ml)",
+            "cartImage": "https://res.cloudinary.com/dxzzseffz/image/upload/v1707243007/product%20images/xipkhdt2jywvvechzzoa.png",
+            "coverImage": "https://res.cloudinary.com/dxzzseffz/image/upload/v1707243007/product%20images/xipkhdt2jywvvechzzoa.png",
+            "colorHex": "F7EFD3",
+            "$id": "65bfa8305a6f8e700932",
+            "$createdAt": "2024-02-04T15:07:28.370+00:00",
+            "$updatedAt": "2024-03-10T10:27:20.631+00:00",
+            "$permissions": [
+                "read(\"user:root\")",
+                "update(\"user:root\")",
+                "delete(\"user:root\")"
+            ],
+            "$databaseId": "6559aa55c8535f463b48",
+            "$collectionId": "6559aa721adfa29ca781"
+        },
+        {
+            "id": "SSM-1",
+            "otherImages": [
+                "https://res.cloudinary.com/dxzzseffz/image/upload/v1710008780/product%20images/sckkryaof2mrbyszdbst.png",
+                "https://res.cloudinary.com/dxzzseffz/image/upload/v1707243007/product%20images/vb7jfveau21bmhbnoi8v.png"
+            ],
+            "productId": "sesame-wood-press-oil",
+            "isMainVariant": true,
+            "unit": "litre",
+            "size": 1,
+            "bulletPoints": [
+                "100% Unrefined, Unadulterated, Preservative-free, Chemical-free.",
+                "Contains only one Ingredient ie. Black Sesame Seeds.",
+                "Single Wood Pressed traditionally to keep the oil\u2019s natural flavour, aroma and nutrients intact.",
+                "Made from native, handpicked Sesame Seeds from Shekhawati region of Rajasthan.",
+                "Freshly Extracted."
+            ],
+            "price": 540,
+            "title": "Sesame Wood Press Oil (1_litre)",
+            "cartImage": "https://res.cloudinary.com/dxzzseffz/image/upload/v1707243007/product%20images/xipkhdt2jywvvechzzoa.png",
+            "coverImage": "https://res.cloudinary.com/dxzzseffz/image/upload/v1710008564/product%20images/t1hsbdocbdkmkhsixnzg.png",
+            "colorHex": "F7EFD3",
+            "$id": "65bfa8351f5a1d04f969",
+            "$createdAt": "2024-02-04T15:07:33.128+00:00",
+            "$updatedAt": "2024-03-10T10:27:15.665+00:00",
+            "$permissions": [
+                "read(\"user:root\")",
+                "update(\"user:root\")",
+                "delete(\"user:root\")"
+            ],
+            "$databaseId": "6559aa55c8535f463b48",
+            "$collectionId": "6559aa721adfa29ca781"
+        },
+        {
+            "id": "SSM-5",
+            "otherImages": [],
+            "productId": "sesame-wood-press-oil",
+            "isMainVariant": false,
+            "unit": "litres",
+            "size": 5,
+            "bulletPoints": [],
+            "price": 2380,
+            "title": "Sesame Wood Press Oil (5_litres)",
+            "cartImage": "https://res.cloudinary.com/dxzzseffz/image/upload/v1707243007/product%20images/xipkhdt2jywvvechzzoa.png",
+            "coverImage": "https://res.cloudinary.com/dxzzseffz/image/upload/v1707243007/product%20images/xipkhdt2jywvvechzzoa.png",
+            "colorHex": "F7EFD3",
+            "$id": "65bfa83adde1f118b7c8",
+            "$createdAt": "2024-02-04T15:07:38.909+00:00",
+            "$updatedAt": "2024-03-10T10:27:11.988+00:00",
+            "$permissions": [
+                "read(\"user:root\")",
+                "update(\"user:root\")",
+                "delete(\"user:root\")"
+            ],
+            "$databaseId": "6559aa55c8535f463b48",
+            "$collectionId": "6559aa721adfa29ca781"
+        },
+        {
+            "id": "ALM-100",
+            "otherImages": [
+                "https://res.cloudinary.com/dxzzseffz/image/upload/v1709459413/product%20images/evy1sncs6pwhhclrja2e.png",
+                "https://res.cloudinary.com/dxzzseffz/image/upload/v1709459412/product%20images/uc4lg3jhwjgogbevlztg.png"
+            ],
+            "productId": "almond-wood-pressed-oil",
+            "isMainVariant": true,
+            "unit": "ml",
+            "size": 100,
+            "bulletPoints": [
+                "100% Unrefined, Unadulterated, Preservative-free, Chemical-free.",
+                "Contains only one Ingredient ie. 100% Wood Pressed Sweet Almond Oil.",
+                "Single Wood Pressed traditionally to keep the oil\u2019s natural flavour, aroma and nutrients intact.",
+                "Made from Californian Sweet Almonds.",
+                "Freshly Extracted."
+            ],
+            "price": 350,
+            "title": "Almond Wood Pressed Oil (100_ml)",
+            "cartImage": "https://res.cloudinary.com/dxzzseffz/image/upload/v1709459414/product%20images/tiupgjqczomfmsethdkt.png",
+            "coverImage": "https://res.cloudinary.com/dxzzseffz/image/upload/v1709459413/product%20images/gzxvlairt8ny1ysdyosc.png",
+            "colorHex": "EFEFDC",
+            "$id": "65bfa83fb4f5e6c8d182",
+            "$createdAt": "2024-02-04T15:07:43.741+00:00",
+            "$updatedAt": "2024-03-10T10:26:34.222+00:00",
+            "$permissions": [
+                "read(\"user:root\")",
+                "update(\"user:root\")",
+                "delete(\"user:root\")"
+            ],
+            "$databaseId": "6559aa55c8535f463b48",
+            "$collectionId": "6559aa721adfa29ca781"
+        },
+        {
+            "id": "ALM-250",
+            "otherImages": [
+                "https://res.cloudinary.com/dxzzseffz/image/upload/v1709459413/product%20images/evy1sncs6pwhhclrja2e.png",
+                "https://res.cloudinary.com/dxzzseffz/image/upload/v1709459412/product%20images/uc4lg3jhwjgogbevlztg.png"
+            ],
+            "productId": "almond-wood-pressed-oil",
+            "isMainVariant": false,
+            "unit": "ml",
+            "size": 250,
+            "bulletPoints": [],
+            "price": 780,
+            "title": "Almond Wood Pressed Oil (250_ml)",
+            "cartImage": "https://res.cloudinary.com/dxzzseffz/image/upload/v1709459414/product%20images/tiupgjqczomfmsethdkt.png",
+            "coverImage": "https://res.cloudinary.com/dxzzseffz/image/upload/v1709459413/product%20images/gzxvlairt8ny1ysdyosc.png",
+            "colorHex": "EFEFDC",
+            "$id": "65bfa84424b9f3b57bf2",
+            "$createdAt": "2024-02-04T15:07:48.150+00:00",
+            "$updatedAt": "2024-03-10T10:26:30.505+00:00",
+            "$permissions": [
+                "read(\"user:root\")",
+                "update(\"user:root\")",
+                "delete(\"user:root\")"
+            ],
+            "$databaseId": "6559aa55c8535f463b48",
+            "$collectionId": "6559aa721adfa29ca781"
+        },
+        {
+            "id": "YMS-5",
+            "otherImages": [],
+            "productId": "yellow-mustard-wood-pressed-oil",
+            "isMainVariant": false,
+            "unit": "litres",
+            "size": 5,
+            "bulletPoints": [],
+            "price": 1750,
+            "title": "Yellow Mustard Wood Pressed Oil (5_litres)",
+            "cartImage": "https://res.cloudinary.com/dxzzseffz/image/upload/v1707243008/product%20images/bcdxyyxicxdcewswko6b.png",
+            "coverImage": "https://res.cloudinary.com/dxzzseffz/image/upload/v1707243008/product%20images/bcdxyyxicxdcewswko6b.png",
+            "colorHex": "F2E9D5",
+            "$id": "65e4470df04119fb92cf",
+            "$createdAt": "2024-03-03T09:46:53.984+00:00",
+            "$updatedAt": "2024-03-10T10:25:16.996+00:00",
+            "$permissions": [],
+            "$databaseId": "6559aa55c8535f463b48",
+            "$collectionId": "6559aa721adfa29ca781"
+        }
+    ]
+}

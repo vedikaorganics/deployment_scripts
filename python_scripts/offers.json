@@ -1,0 +1,45 @@
+{
+    "total": 4,
+    "documents": [
+        {
+            "description": "\u20b9400 off on orders above \u20b94000",
+            "price": 400,
+            "$id": "SHOP_4000",
+            "$createdAt": "2024-03-05T04:06:23.652+00:00",
+            "$updatedAt": "2024-03-05T04:06:23.652+00:00",
+            "$permissions": [],
+            "$databaseId": "6559aa55c8535f463b48",
+            "$collectionId": "65c72d9e77f40389fe32"
+        },
+        {
+            "description": "\u20b9125 off on orders above \u20b92000",
+            "price": 125,
+            "$id": "SHOP_2000",
+            "$createdAt": "2024-03-05T04:06:46.033+00:00",
+            "$updatedAt": "2024-03-05T04:06:46.033+00:00",
+            "$permissions": [],
+            "$databaseId": "6559aa55c8535f463b48",
+            "$collectionId": "65c72d9e77f40389fe32"
+        },
+        {
+            "description": "\u20b950 off on orders above \u20b91000",
+            "price": 50,
+            "$id": "SHOP_1000",
+            "$createdAt": "2024-03-05T04:07:12.367+00:00",
+            "$updatedAt": "2024-03-05T04:07:12.367+00:00",
+            "$permissions": [],
+            "$databaseId": "6559aa55c8535f463b48",
+            "$collectionId": "65c72d9e77f40389fe32"
+        },
+        {
+            "description": "\u20b950 off on your first order",
+            "price": 50,
+            "$id": "WELCOME_50",
+            "$createdAt": "2024-03-05T04:07:37.538+00:00",
+            "$updatedAt": "2024-03-05T04:07:37.538+00:00",
+            "$permissions": [],
+            "$databaseId": "6559aa55c8535f463b48",
+            "$collectionId": "65c72d9e77f40389fe32"
+        }
+    ]
+}
