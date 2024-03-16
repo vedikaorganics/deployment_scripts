@@ -147,6 +147,11 @@ def create_database_read_write_key():
 
     response = requests.request("POST", url, headers=headers, data=payload)
 
+    if not response.ok:
+        raise Exception("Error creating database read write key. \nStatus: {} \nResponseBody: {}".format(response.status_code,
+                                                                                                 response.text))
+
+
     return json.loads(response.text)["secret"]
 
 
