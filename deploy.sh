@@ -23,7 +23,7 @@ fi
 # Commands on the DigitalOcean droplet
 
 # Clone nodeserver
-execute_command "git clone https://vedikaorganics:${GITHUB_PAT}@github.com/vedikaorganics/nodeserver.git"
+execute_command "git clone https://vedikaorganics:${GITHUB_PAT}@github.com/vedikaorganics/nodeserver.git"0
 
 # Build nodeserver image
 execute_command "docker build -t vedikadocker/shudhkart:0.0.3 ./nodeserver"
@@ -59,6 +59,7 @@ echo "proceeding for project setup"
 # run python scripts to create project
 cd .. || exit 1
 cd python_scripts
+execute_command "apt install -y --allow-downgrades nginx"
 execute_command "pip3 install -r requirements.txt"
 execute_command "python3 create_project.py"
 
