@@ -59,7 +59,8 @@ echo "proceeding for project setup"
 # run python scripts to create project
 cd .. || exit 1
 cd python_scripts
-execute_command "NEEDRESTART_MODE=a apt install -y python3-pip"
+execute_command "apt-get remove needrestart"
+execute_command "apt install -y python3-pip"
 execute_command "pip3 install -r requirements.txt"
 execute_command "python3 create_project.py"
 
