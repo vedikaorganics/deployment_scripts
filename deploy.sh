@@ -53,7 +53,10 @@ execute_command "docker compose exec appwrite ssl domain='testbackend.vedikaorga
 
 # wait some time for container init completion
 echo "waiting..."
-sleep 60
+for ((i=1; i<=60; i++)); do
+    echo "Waiting... $i seconds"
+    sleep 1
+done
 echo "proceeding for project setup"
 
 # run python scripts to create project
