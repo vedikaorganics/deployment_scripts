@@ -212,15 +212,15 @@ def create_collection(collection):
     for attribute in attributes:
         create_attribute(attribute, collection["$id"]);
 
-    indexes = collection["indexes"]
-    for index in indexes:
-        databases.create_index(
-            database_id,
-            collection["$id"],
-            index["key"],
-            index["type"],
-            index["attributes"],
-            orders=index["orders"])
+    # indexes = collection["indexes"]
+    # for index in indexes:
+    #     databases.create_index(
+    #         database_id,
+    #         collection["$id"],
+    #         index["key"],
+    #         index["type"],
+    #         index["attributes"],
+    #         orders=index["orders"])
 
 
 def create_attribute(attribute, collection_id):
