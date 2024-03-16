@@ -23,13 +23,13 @@ fi
 # Commands on the DigitalOcean droplet
 
 # Clone nodeserver
-# execute_command "git clone https://vedikaorganics:${GITHUB_PAT}@github.com/vedikaorganics/nodeserver.git"
+execute_command "git clone https://vedikaorganics:${GITHUB_PAT}@github.com/vedikaorganics/nodeserver.git"
 
 # Build nodeserver image
 execute_command "docker build -t vedikadocker/shudhkart:0.0.3 ./nodeserver"
 
 # Clone appwrite-deployment
-# execute_command "git clone https://vedikaorganics:${GITHUB_PAT}@github.com/vedikaorganics/appwrite-deployment.git"
+execute_command "git clone https://vedikaorganics:${GITHUB_PAT}@github.com/vedikaorganics/appwrite-deployment.git"
 
 # Change directory into appwrite-deployment
 cd appwrite-deployment || exit 1
@@ -38,9 +38,9 @@ cd appwrite-deployment || exit 1
 execute_command "chmod +x update_env.sh"
 
 # Update .env variables
-# for arg in "$@"; do
-#     execute_command "./update_env.sh $arg"
-# done
+for arg in "$@"; do
+    execute_command "./update_env.sh $arg"
+done
 
 # Start up docker compose
 execute_command "docker compose up -d --remove-orphans"
