@@ -65,14 +65,14 @@ cd python_scripts
 execute_command "apt-get remove -y needrestart"
 execute_command "apt install -y python3-pip"
 execute_command "pip3 install -r requirements.txt"
-execute_command "python3 create_project.py"
+# execute_command "python3 create_project.py"
 
-# edit appwrite keys in .env and restart server
-cd .. || exit 1
-cd appwrite-deployment
-execute_command "./update_env.sh < .appwrite_keys"
-execute_command "docker compose down"
-execute_command "docker compose up -d --remove-orphans"
-execute_command "docker compose exec appwrite-worker-messaging sed -i 's#\[$to\]#$to#g' /usr/src/code/vendor/utopia-php/messaging/src/Utopia/Messaging/Adapters/SMS/Msg91.php && docker compose restart appwrite-worker-messaging"
+# # edit appwrite keys in .env and restart server
+# cd .. || exit 1
+# cd appwrite-deployment
+# execute_command "./update_env.sh < .appwrite_keys"
+# execute_command "docker compose down"
+# execute_command "docker compose up -d --remove-orphans"
+# execute_command "docker compose exec appwrite-worker-messaging sed -i 's#\[$to\]#$to#g' /usr/src/code/vendor/utopia-php/messaging/src/Utopia/Messaging/Adapters/SMS/Msg91.php && docker compose restart appwrite-worker-messaging"
 
 
