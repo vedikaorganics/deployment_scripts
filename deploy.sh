@@ -1,8 +1,5 @@
 #!/bin/bash
 
-GITHUB_PAT=""
-
-
 find_var() {
     local allowed_origin_input="$1"
     local found=false
@@ -49,14 +46,16 @@ if [ $# -eq 0 ]; then
     exit 1
 fi
 
+GITHUB_KEY=$(find_var "GITHUB_KEY" "$@")
+
 # Clone nodeserver
-execute_command "git clone https://vedikaorganics:${GITHUB_PAT}@github.com/vedikaorganics/nodeserver.git"
+execute_command "git clone https://vedikaorganics:${GITHUB_KEY}@github.com/vedikaorganics/nodeserver.git"
 
 # Build nodeserver image
 execute_command "docker build -t vedikadocker/shudhkart:0.0.3 ./nodeserver"
 
 # Clone appwrite-deployment
-execute_command "git clone https://vedikaorganics:${GITHUB_PAT}@github.com/vedikaorganics/appwrite-deployment.git"
+execute_command "git clone https://vedikaorganics:${GITHUB_KEY}@github.com/vedikaorganics/appwrite-deployment.git"
 
 # Change directory into appwrite-deployment
 cd appwrite-deployment || exit 1
