@@ -1,3 +1,4 @@
+import time
 import requests
 import json
 from appwrite.client import Client
@@ -210,17 +211,17 @@ def create_collection(collection):
 
     attributes = collection["attributes"]
     for attribute in attributes:
-        create_attribute(attribute, collection["$id"]);
+        create_attribute(attribute, collection["$id"])
 
-    # indexes = collection["indexes"]
-    # for index in indexes:
-    #     databases.create_index(
-    #         database_id,
-    #         collection["$id"],
-    #         index["key"],
-    #         index["type"],
-    #         index["attributes"],
-    #         orders=index["orders"])
+    indexes = collection["indexes"]
+    for index in indexes:
+        databases.create_index(
+            database_id,
+            collection["$id"],
+            index["key"],
+            index["type"],
+            index["attributes"],
+            orders=index["orders"])
 
 
 def create_attribute(attribute, collection_id):
@@ -255,6 +256,13 @@ def create_attribute(attribute, collection_id):
             array=attribute["array"]
         )
 
+    while True:
+        print("checking attribute status for {}...".format(attribute["key"]), end='')
+        res = databases.get_attribute(database_id, collection_id, attribute["key"])
+        time.sleep(1)
+        print(res["status"])
+        if (res["status"] == "available"):
+            break
 
 ##################################################################################
 
@@ -309,6 +317,7 @@ def create_document(document, collection_id):
     del document['$id']
     del document['$databaseId']
     del document['$collectionId']
+    print(document)
     databases.create_document(
         database_id=database_id,
         collection_id=collection_id,
