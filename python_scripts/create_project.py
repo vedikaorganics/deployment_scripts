@@ -8,6 +8,7 @@ appwrite_endpoint = "http://localhost/v1"
 project_id = "6559a9f8f3d4cbd3a42c"
 user_email = "kabiratvedika@gmail.com"
 password = "Mementomori!3210"
+appwrite_client = "test.vedikaorganics.com"
 
 
 def create_console_account():
@@ -120,6 +121,29 @@ def create_project(orgId):
 
     response = requests.request("POST", url, headers=headers, data=payload)
     return response
+
+
+def add_platform():
+    url = appwrite_endpoint + "/projects/{}/platforms".format(project_id)
+
+    payload = json.dumps({
+        "type": "web",
+        "name": "Web client",
+        "hostname": appwrite_client
+    })
+
+    headers = {
+        'X-Appwrite-Project': 'console',
+        'Content-Type': 'application/json',
+        'Cookie': "{}".format(cookie)
+    }
+
+    response = requests.request("POST", url, headers=headers, data=payload)
+    print(response)
+    if not response.ok:
+        raise Exception("Error adding platform. \nStatus: {} \nResponseBody: {}".format(response.status_code,
+                                                                                                response.text))
+
 
 
 def create_database_read_write_key():
