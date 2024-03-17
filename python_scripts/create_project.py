@@ -302,6 +302,7 @@ else:
     orgId = create_team()
 
 create_project(orgId)
+add_platform()
 
 database_read_write_key = create_database_read_write_key()
 users_read_key = create_users_read_key()
