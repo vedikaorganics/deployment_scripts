@@ -1,4 +1,5 @@
 import time
+import sys
 import requests
 import json
 from appwrite.client import Client
@@ -8,7 +9,7 @@ appwrite_endpoint = "http://localhost/v1"
 project_id = "6559a9f8f3d4cbd3a42c"
 user_email = "kabiratvedika@gmail.com"
 password = "Mementomori!3210"
-appwrite_client = "test.vedikaorganics.com"
+appwrite_client = sys.argv[1]
 
 
 def create_console_account():
@@ -124,6 +125,7 @@ def create_project(orgId):
 
 
 def add_platform():
+    print("adding web platform: {}".format(appwrite_client))
     url = appwrite_endpoint + "/projects/{}/platforms".format(project_id)
 
     payload = json.dumps({
