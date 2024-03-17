@@ -283,7 +283,6 @@ def create_attribute(attribute, collection_id):
     while True:
         print("checking attribute status for {}...".format(attribute["key"]), end='')
         res = databases.get_attribute(database_id, collection_id, attribute["key"])
-        time.sleep(1)
         print(res["status"])
         if (res["status"] == "available"):
             break
