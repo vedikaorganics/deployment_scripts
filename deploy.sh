@@ -72,7 +72,7 @@ done
 execute_command "docker compose up -d --remove-orphans"
 
 # Apply the patch for appwrite msg91 bug
-execute_command "docker compose exec appwrite-worker-messaging sed -i 's#\[\$to\]#\$to#g' /usr/src/code/vendor/utopia-php/messaging/src/Utopia/Messaging/Adapters/SMS/Msg91.php && docker compose restart appwrite-worker-messaging"
+docker compose exec appwrite-worker-messaging sed -i 's#\[$to\]#$to#g' /usr/src/code/vendor/utopia-php/messaging/src/Utopia/Messaging/Adapters/SMS/Msg91.php && docker compose restart appwrite-worker-messaging
 
 # generate certificate
 _APP_DOMAIN=$(find_var "_APP_DOMAIN" "$@")
