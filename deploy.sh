@@ -72,7 +72,7 @@ done
 execute_command "docker compose up -d --remove-orphans"
 
 # Apply the patch for appwrite msg91 bug
-docker compose exec appwrite-worker-messaging sed -i 's#\[$to\]#$to#g' /usr/src/code/vendor/utopia-php/messaging/src/Utopia/Messaging/Adapters/SMS/Msg91.php && docker compose restart appwrite-worker-messaging
+execute_command "docker compose exec appwrite-worker-messaging sed -i 's#\[\$to\]#\$to#g' /usr/src/code/vendor/utopia-php/messaging/src/Utopia/Messaging/Adapters/SMS/Msg91.php && docker compose restart appwrite-worker-messaging"
 
 # generate certificate
 _APP_DOMAIN=$(find_var "_APP_DOMAIN" "$@")
@@ -119,6 +119,6 @@ cd appwrite-deployment
 execute_command "python3 update_env.py `cat .appwrite_keys`"
 execute_command "docker compose down"
 execute_command "docker compose up -d --remove-orphans"
-execute_command "docker compose exec appwrite-worker-messaging sed -i 's#\[$to\]#$to#g' /usr/src/code/vendor/utopia-php/messaging/src/Utopia/Messaging/Adapters/SMS/Msg91.php && docker compose restart appwrite-worker-messaging"
+execute_command "docker compose exec appwrite-worker-messaging sed -i 's#\[\$to\]#\$to#g' /usr/src/code/vendor/utopia-php/messaging/src/Utopia/Messaging/Adapters/SMS/Msg91.php && docker compose restart appwrite-worker-messaging"
 
 
