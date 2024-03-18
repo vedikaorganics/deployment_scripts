@@ -60,19 +60,19 @@ execute_command "git clone https://vedikaorganics:${GITHUB_KEY}@github.com/vedik
 # Change directory into appwrite-deployment
 cd appwrite-deployment || exit 1
 
-# Make update_env.sh executable
-execute_command "chmod +x update_env.sh"
+# Make update_env.py executable
+# execute_command "chmod +x update_env.py"
 
 # Update .env variables
 for arg in "$@"; do
-    execute_command "./update_env.sh $arg"
+    execute_command "python3 update_env.py $arg"
 done
 
 # Start up docker compose
 execute_command "docker compose up -d --remove-orphans"
 
 # Apply the patch for appwrite msg91 bug
-execute_command "docker compose exec appwrite-worker-messaging sed -i 's#\[$to\]#$to#g' /usr/src/code/vendor/utopia-php/messaging/src/Utopia/Messaging/Adapters/SMS/Msg91.php && docker compose restart appwrite-worker-messaging"
+execute_command "docker compose exec appwrite-worker-messaging sed -i 's#\[\$to\]#\$to#g' /usr/src/code/vendor/utopia-php/messaging/src/Utopia/Messaging/Adapters/SMS/Msg91.php && docker compose restart appwrite-worker-messaging"
 
 # generate certificate
 _APP_DOMAIN=$(find_var "_APP_DOMAIN" "$@")
@@ -108,16 +108,15 @@ echo "Proceeding for project setup"
 CLIENT_HOST=$(find_var "CLIENT_HOST" "$@")
 cd .. || exit 1
 cd python_scripts
-execute_command "apt-get remove -y needrestart"
-execute_command "apt install -y python3-pip"
+# execute_command "apt-get remove -y needrestart"
+# execute_command "apt install -y python3-pip"
 execute_command "pip3 install -r requirements.txt"
 execute_command "python3 create_project.py ${CLIENT_HOST}"
 
 # # edit appwrite keys in .env and restart server
 cd .. || exit 1
 cd appwrite-deployment
-execute_command "chmod +x update_env.sh"
-execute_command "./update_env.sh `cat .appwrite_keys`"
+execute_command "python3 update_env.py `cat .appwrite_keys`"
 execute_command "docker compose down"
 execute_command "docker compose up -d --remove-orphans"
 execute_command "docker compose exec appwrite-worker-messaging sed -i 's#\[$to\]#$to#g' /usr/src/code/vendor/utopia-php/messaging/src/Utopia/Messaging/Adapters/SMS/Msg91.php && docker compose restart appwrite-worker-messaging"
