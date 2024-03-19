@@ -74,10 +74,6 @@ execute_command "docker compose up -d --remove-orphans"
 # Apply the patch for appwrite msg91 bug
 execute_command "docker compose exec appwrite-worker-messaging sed -i 's#\[\$to\]#\$to#g' /usr/src/code/vendor/utopia-php/messaging/src/Utopia/Messaging/Adapters/SMS/Msg91.php && docker compose restart appwrite-worker-messaging"
 
-# generate certificate
-# _APP_DOMAIN=$(find_var "_APP_DOMAIN" "$@")
-# execute_command "docker compose exec appwrite ssl domain='${_APP_DOMAIN}'"
-
 # wait some time for container init completion
 echo "waiting..."
 # Define variables
@@ -121,4 +117,8 @@ execute_command "docker compose down"
 execute_command "docker compose up -d --remove-orphans"
 execute_command "docker compose exec appwrite-worker-messaging sed -i 's#\[\$to\]#\$to#g' /usr/src/code/vendor/utopia-php/messaging/src/Utopia/Messaging/Adapters/SMS/Msg91.php && docker compose restart appwrite-worker-messaging"
 
-
+# generate certificate
+_APP_DOMAIN=$(find_var "_APP_DOMAIN" "$@")
+# execute_command "docker compose exec appwrite ssl domain='${_APP_DOMAIN}'"
+execute_command "cp -r certificates/${_APP_DOMAIN}/ /var/lib/docker/volumes/appwrite-deployment_appwrite-certificates/_data/"
+execute_command "cp -r ${_APP_DOMAIN}.yml /var/lib/docker/volumes/appwrite-deployment_appwrite-config/_data/"
