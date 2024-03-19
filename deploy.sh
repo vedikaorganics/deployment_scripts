@@ -108,8 +108,8 @@ echo "Proceeding for project setup"
 CLIENT_HOST=$(find_var "CLIENT_HOST" "$@")
 cd .. || exit 1
 cd python_scripts
-# execute_command "apt-get remove -y needrestart"
-# execute_command "apt install -y python3-pip"
+execute_command "apt-get remove -y needrestart"
+execute_command "apt install -y python3-pip"
 execute_command "pip3 install -r requirements.txt"
 execute_command "python3 create_project.py ${CLIENT_HOST}"
 
