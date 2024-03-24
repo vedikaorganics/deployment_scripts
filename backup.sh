@@ -80,4 +80,4 @@ execute_command 'docker run   --rm   -v $PWD:/b2   mtronix/b2-cli:0.0.1   bash -
 execute_command 'docker compose exec influxdb   sh -c   "rm -r /storage/influxdb-backup_$current_timestamp"'
 
 # remove backup files
-execute_command "rm influxdb-backup_$current_timestamp.tar.gz && rm -r influxdb-backup_$current_timestamp.tar.gz"
+execute_command "rm influxdb-backup_$current_timestamp.tar.gz && rm -r influxdb-backup_$current_timestamp"
